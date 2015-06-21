@@ -299,6 +299,23 @@
 				<command>xkb-switch -s ru</command>
 			</action>
 		</keybind>
+		<keybind key="W-S-Return">
+			<action name="Execute">
+				<startupnotify>
+					<enabled>true</enabled>
+					<name>Terminal Emulator</name>
+				</startupnotify>
+				<command>terminator</command>
+			</action>
+		</keybind>
+		<keybind key="W-Q">
+			<action name="Reconfigure"/>
+		</keybind>
+		<keybind key="W-S-Q">
+			<action name="Exit">
+				<prompt>no</prompt>
+			</action>
+		</keybind>
 	</keyboard>
 	<mouse>
 		<dragThreshold>1</dragThreshold>
