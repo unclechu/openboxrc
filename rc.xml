@@ -96,125 +96,125 @@
 	<keyboard>
 		<chainQuitKey>C-g</chainQuitKey>
 		<!-- Keybindings for desktop switching -->
-		<keybind key="W-1">
+		<keybind key="M-1">
 			<action name="GoToDesktop">
 				<to>1</to>
 			</action>
 		</keybind>
-		<keybind key="W-S-1">
+		<keybind key="M-S-1">
 			<action name="SendToDesktop">
 				<to>1</to>
 				<wrap>no</wrap>
 			</action>
 		</keybind>
-		<keybind key="W-2">
+		<keybind key="M-2">
 			<action name="GoToDesktop">
 				<to>2</to>
 			</action>
 		</keybind>
-		<keybind key="W-S-2">
+		<keybind key="M-S-2">
 			<action name="SendToDesktop">
 				<to>2</to>
 				<wrap>no</wrap>
 			</action>
 		</keybind>
-		<keybind key="W-3">
+		<keybind key="M-3">
 			<action name="GoToDesktop">
 				<to>3</to>
 			</action>
 		</keybind>
-		<keybind key="W-S-3">
+		<keybind key="M-S-3">
 			<action name="SendToDesktop">
 				<to>3</to>
 				<wrap>no</wrap>
 			</action>
 		</keybind>
-		<keybind key="W-4">
+		<keybind key="M-4">
 			<action name="GoToDesktop">
 				<to>4</to>
 			</action>
 		</keybind>
-		<keybind key="W-S-4">
+		<keybind key="M-S-4">
 			<action name="SendToDesktop">
 				<to>4</to>
 				<wrap>no</wrap>
 			</action>
 		</keybind>
-		<keybind key="W-5">
+		<keybind key="M-5">
 			<action name="GoToDesktop">
 				<to>5</to>
 			</action>
 		</keybind>
-		<keybind key="W-S-5">
+		<keybind key="M-S-5">
 			<action name="SendToDesktop">
 				<to>5</to>
 				<wrap>no</wrap>
 			</action>
 		</keybind>
-		<keybind key="W-6">
+		<keybind key="M-6">
 			<action name="GoToDesktop">
 				<to>6</to>
 			</action>
 		</keybind>
-		<keybind key="W-S-6">
+		<keybind key="M-S-6">
 			<action name="SendToDesktop">
 				<to>6</to>
 				<wrap>no</wrap>
 			</action>
 		</keybind>
-		<keybind key="W-7">
+		<keybind key="M-7">
 			<action name="GoToDesktop">
 				<to>7</to>
 			</action>
 		</keybind>
-		<keybind key="W-S-7">
+		<keybind key="M-S-7">
 			<action name="SendToDesktop">
 				<to>7</to>
 				<wrap>no</wrap>
 			</action>
 		</keybind>
-		<keybind key="W-8">
+		<keybind key="M-8">
 			<action name="GoToDesktop">
 				<to>8</to>
 			</action>
 		</keybind>
-		<keybind key="W-S-8">
+		<keybind key="M-S-8">
 			<action name="SendToDesktop">
 				<to>8</to>
 				<wrap>no</wrap>
 			</action>
 		</keybind>
-		<keybind key="W-9">
+		<keybind key="M-9">
 			<action name="GoToDesktop">
 				<to>9</to>
 			</action>
 		</keybind>
-		<keybind key="W-S-9">
+		<keybind key="M-S-9">
 			<action name="SendToDesktop">
 				<to>9</to>
 				<wrap>no</wrap>
 			</action>
 		</keybind>
-		<keybind key="W-d">
+		<keybind key="M-d">
 			<action name="ToggleShowDesktop"/>
 		</keybind>
 		<!-- Keybindings for windows -->
-		<keybind key="W-Up">
+		<keybind key="M-Up">
 			<action name="Maximize"/>
 		</keybind>
-		<keybind key="W-Down">
+		<keybind key="M-Down">
 			<action name="ToggleMaximize"/>
 		</keybind>
-		<keybind key="W-S-c">
+		<keybind key="M-S-c">
 			<action name="Close"/>
 		</keybind>
-		<keybind key="W-space">
+		<keybind key="M-space">
 			<action name="ShowMenu">
 				<menu>client-menu</menu>
 			</action>
 		</keybind>
 		<!-- Keybindings for window switching -->
-		<keybind key="W-Tab">
+		<keybind key="M-Tab">
 			<action name="NextWindow">
 				<finalactions>
 					<action name="Focus"/>
@@ -223,7 +223,7 @@
 				</finalactions>
 			</action>
 		</keybind>
-		<keybind key="W-j">
+		<keybind key="M-j">
 			<action name="NextWindow">
 				<finalactions>
 					<action name="Focus"/>
@@ -232,7 +232,7 @@
 				</finalactions>
 			</action>
 		</keybind>
-		<keybind key="W-S-Tab">
+		<keybind key="M-S-Tab">
 			<action name="PreviousWindow">
 				<finalactions>
 					<action name="Focus"/>
@@ -241,7 +241,7 @@
 				</finalactions>
 			</action>
 		</keybind>
-		<keybind key="W-k">
+		<keybind key="M-k">
 			<action name="PreviousWindow">
 				<finalactions>
 					<action name="Focus"/>
@@ -251,28 +251,28 @@
 			</action>
 		</keybind>
 		<!-- Keybindings for window switching with the arrow keys -->
-		<keybind key="W-S-Right">
+		<keybind key="M-S-Right">
 			<action name="DirectionalCycleWindows">
 				<direction>right</direction>
 			</action>
 		</keybind>
-		<keybind key="W-S-Left">
+		<keybind key="M-S-Left">
 			<action name="DirectionalCycleWindows">
 				<direction>left</direction>
 			</action>
 		</keybind>
-		<keybind key="W-S-Up">
+		<keybind key="M-S-Up">
 			<action name="DirectionalCycleWindows">
 				<direction>up</direction>
 			</action>
 		</keybind>
-		<keybind key="W-S-Down">
+		<keybind key="M-S-Down">
 			<action name="DirectionalCycleWindows">
 				<direction>down</direction>
 			</action>
 		</keybind>
 		<!-- Keybindings for running applications -->
-		<keybind key="W-p">
+		<keybind key="M-p">
 			<action name="Execute">
 				<startupnotify>
 					<enabled>true</enabled>
@@ -281,7 +281,7 @@
 				<command>gmrun</command>
 			</action>
 		</keybind>
-		<keybind key="W-z">
+		<keybind key="M-z">
 			<action name="Execute">
 				<startupnotify>
 					<enabled>true</enabled>
@@ -290,7 +290,7 @@
 				<command>xkb-switch -s us</command>
 			</action>
 		</keybind>
-		<keybind key="W-x">
+		<keybind key="M-x">
 			<action name="Execute">
 				<startupnotify>
 					<enabled>true</enabled>
@@ -299,7 +299,7 @@
 				<command>xkb-switch -s ru</command>
 			</action>
 		</keybind>
-		<keybind key="W-S-Return">
+		<keybind key="M-S-Return">
 			<action name="Execute">
 				<startupnotify>
 					<enabled>true</enabled>
@@ -308,10 +308,10 @@
 				<command>terminator</command>
 			</action>
 		</keybind>
-		<keybind key="W-Q">
+		<keybind key="M-Q">
 			<action name="Reconfigure"/>
 		</keybind>
-		<keybind key="W-S-Q">
+		<keybind key="M-S-Q">
 			<action name="Exit">
 				<prompt>no</prompt>
 			</action>
@@ -330,7 +330,7 @@
 			<mousebind button="A-Left" action="Click">
 				<action name="Unshade"/>
 			</mousebind>
-			<mousebind button="W-Left" action="Drag">
+			<mousebind button="M-Left" action="Drag">
 				<action name="Move"/>
 			</mousebind>
 			<mousebind button="A-Right" action="Press">
