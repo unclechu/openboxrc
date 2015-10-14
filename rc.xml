@@ -195,10 +195,16 @@
 				<wrap>no</wrap>
 			</action>
 		</keybind>
-		<keybind key="M-d">
+		<keybind key="M-C-d">
 			<action name="ToggleShowDesktop"/>
 		</keybind>
 		<!-- Keybindings for windows -->
+		<keybind key="M-d">
+			<action name="Iconify"/>
+		</keybind>
+		<keybind key="M-f">
+			<action name="ToggleFullscreen"/>
+		</keybind>
 		<keybind key="M-Up">
 			<action name="Maximize"/>
 		</keybind>
@@ -272,7 +278,7 @@
 			</action>
 		</keybind>
 		<!-- Keybindings for running applications -->
-		<keybind key="M-p">
+		<keybind key="M-r">
 			<action name="Execute">
 				<startupnotify>
 					<enabled>true</enabled>
@@ -299,13 +305,31 @@
 				<command>xkb-switch -s ru</command>
 			</action>
 		</keybind>
+		<keybind key="M-C-Return">
+			<action name="Execute">
+				<startupnotify>
+					<enabled>true</enabled>
+					<name>Terminal Emulator</name>
+				</startupnotify>
+				<command>terminator --profile dark</command>
+			</action>
+		</keybind>
 		<keybind key="M-S-Return">
 			<action name="Execute">
 				<startupnotify>
 					<enabled>true</enabled>
 					<name>Terminal Emulator</name>
 				</startupnotify>
-				<command>terminator</command>
+				<command>terminator --profile light</command>
+			</action>
+		</keybind>
+		<keybind key="M-h">
+			<action name="Execute">
+				<startupnotify>
+					<enabled>true</enabled>
+					<name>Home</name>
+				</startupnotify>
+				<command>nautilus</command>
 			</action>
 		</keybind>
 		<keybind key="M-Q">
