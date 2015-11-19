@@ -202,7 +202,7 @@
 		<keybind key="M-d">
 			<action name="Iconify"/>
 		</keybind>
-		<keybind key="M-f">
+		<keybind key="M-m">
 			<action name="ToggleFullscreen"/>
 		</keybind>
 		<keybind key="M-Up">
@@ -278,31 +278,13 @@
 			</action>
 		</keybind>
 		<!-- Keybindings for running applications -->
-		<keybind key="M-r">
+		<keybind key="M-p">
 			<action name="Execute">
 				<startupnotify>
 					<enabled>true</enabled>
 					<name>GMRun</name>
 				</startupnotify>
 				<command>gmrun</command>
-			</action>
-		</keybind>
-		<keybind key="M-z">
-			<action name="Execute">
-				<startupnotify>
-					<enabled>true</enabled>
-					<name>Switch to US</name>
-				</startupnotify>
-				<command>xkb-switch -s us</command>
-			</action>
-		</keybind>
-		<keybind key="M-x">
-			<action name="Execute">
-				<startupnotify>
-					<enabled>true</enabled>
-					<name>Switch to RU</name>
-				</startupnotify>
-				<command>xkb-switch -s ru</command>
 			</action>
 		</keybind>
 		<keybind key="M-C-Return">
@@ -323,19 +305,19 @@
 				<command>terminator --profile light</command>
 			</action>
 		</keybind>
-		<keybind key="M-h">
+		<keybind key="M-f">
 			<action name="Execute">
 				<startupnotify>
 					<enabled>true</enabled>
 					<name>Home</name>
 				</startupnotify>
-				<command>nautilus</command>
+				<command>pcmanfm</command>
 			</action>
 		</keybind>
-		<keybind key="M-Q">
+		<keybind key="M-Z">
 			<action name="Reconfigure"/>
 		</keybind>
-		<keybind key="M-S-Q">
+		<keybind key="M-S-Z">
 			<action name="Exit">
 				<prompt>no</prompt>
 			</action>
