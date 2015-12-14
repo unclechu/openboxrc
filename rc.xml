@@ -305,7 +305,7 @@
 				<command>terminator --profile light</command>
 			</action>
 		</keybind>
-		<keybind key="M-f">
+		<keybind key="M-S-f">
 			<action name="Execute">
 				<startupnotify>
 					<enabled>true</enabled>
