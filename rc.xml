@@ -314,6 +314,15 @@
 				<command>~/.local/bin/gpaste-zenity.sh</command>
 			</action>
 		</keybind>
+		<keybind key="M-BackSpace">
+			<action name="Execute">
+				<startupnotify>
+					<enabled>true</enabled>
+					<name>autostart.sh</name>
+				</startupnotify>
+				<command>~/.local/bin/autostart.sh</command>
+			</action>
+		</keybind>
 		<keybind key="M-S-f">
 			<action name="Execute">
 				<startupnotify>
