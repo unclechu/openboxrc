@@ -305,6 +305,15 @@
 				<command>terminator --profile light</command>
 			</action>
 		</keybind>
+		<keybind key="M-S-v">
+			<action name="Execute">
+				<startupnotify>
+					<enabled>true</enabled>
+					<name>GPaste manager</name>
+				</startupnotify>
+				<command>~/.local/bin/gpaste-zenity.sh</command>
+			</action>
+		</keybind>
 		<keybind key="M-S-f">
 			<action name="Execute">
 				<startupnotify>
