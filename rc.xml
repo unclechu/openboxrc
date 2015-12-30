@@ -332,6 +332,15 @@
 				<command>pcmanfm</command>
 			</action>
 		</keybind>
+		<keybind key="XF86Calculator">
+			<action name="Execute">
+				<startupnotify>
+					<enabled>true</enabled>
+					<name>Calculator</name>
+				</startupnotify>
+				<command>gnome-calculator</command>
+			</action>
+		</keybind>
 		<keybind key="M-Z">
 			<action name="Reconfigure"/>
 		</keybind>
