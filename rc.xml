@@ -194,7 +194,7 @@
 		<keybind key="W-Down">
 			<action name="ToggleMaximize"/>
 		</keybind>
-		<keybind key="W-n">
+		<keybind key="W-slash">
 			<action name="Close"/>
 		</keybind>
 		<keybind key="W-space">
