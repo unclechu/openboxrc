@@ -292,9 +292,18 @@
 			<action name="Execute">
 				<startupnotify>
 					<enabled>true</enabled>
-					<name>GPaste manager</name>
+					<name>GPaste manager (select mode)</name>
 				</startupnotify>
 				<command>~/.local/bin/gpaste-zenity.sh</command>
+			</action>
+		</keybind>
+		<keybind key="W-A-b">
+			<action name="Execute">
+				<startupnotify>
+					<enabled>true</enabled>
+					<name>GPaste manager (delete mode)</name>
+				</startupnotify>
+				<command>~/.local/bin/gpaste-zenity.sh -m=delete</command>
 			</action>
 		</keybind>
 		<keybind key="W-BackSpace">
