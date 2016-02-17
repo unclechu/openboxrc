@@ -101,7 +101,7 @@
 				<to>1</to>
 			</action>
 		</keybind>
-		<keybind key="W-C-u">
+		<keybind key="W-A-u">
 			<action name="SendToDesktop">
 				<to>1</to>
 				<wrap>no</wrap>
@@ -112,7 +112,7 @@
 				<to>2</to>
 			</action>
 		</keybind>
-		<keybind key="W-C-i">
+		<keybind key="W-A-i">
 			<action name="SendToDesktop">
 				<to>2</to>
 				<wrap>no</wrap>
@@ -123,7 +123,7 @@
 				<to>3</to>
 			</action>
 		</keybind>
-		<keybind key="W-C-o">
+		<keybind key="W-A-o">
 			<action name="SendToDesktop">
 				<to>3</to>
 				<wrap>no</wrap>
@@ -134,7 +134,7 @@
 				<to>4</to>
 			</action>
 		</keybind>
-		<keybind key="W-C-8">
+		<keybind key="W-A-8">
 			<action name="SendToDesktop">
 				<to>4</to>
 				<wrap>no</wrap>
@@ -145,7 +145,7 @@
 				<to>5</to>
 			</action>
 		</keybind>
-		<keybind key="W-C-9">
+		<keybind key="W-A-9">
 			<action name="SendToDesktop">
 				<to>5</to>
 				<wrap>no</wrap>
@@ -156,7 +156,7 @@
 				<to>6</to>
 			</action>
 		</keybind>
-		<keybind key="W-C-0">
+		<keybind key="W-A-0">
 			<action name="SendToDesktop">
 				<to>6</to>
 				<wrap>no</wrap>
@@ -167,7 +167,7 @@
 				<to>7</to>
 			</action>
 		</keybind>
-		<keybind key="W-C-minus">
+		<keybind key="W-A-minus">
 			<action name="SendToDesktop">
 				<to>7</to>
 				<wrap>no</wrap>
@@ -178,7 +178,7 @@
 				<to>8</to>
 			</action>
 		</keybind>
-		<keybind key="W-C-equal">
+		<keybind key="W-A-equal">
 			<action name="SendToDesktop">
 				<to>8</to>
 				<wrap>no</wrap>
@@ -240,22 +240,22 @@
 			</action>
 		</keybind>
 		<!-- Keybindings for window switching with the arrow keys -->
-		<keybind key="W-C-Right">
+		<keybind key="W-A-Right">
 			<action name="DirectionalCycleWindows">
 				<direction>right</direction>
 			</action>
 		</keybind>
-		<keybind key="W-C-Left">
+		<keybind key="W-A-Left">
 			<action name="DirectionalCycleWindows">
 				<direction>left</direction>
 			</action>
 		</keybind>
-		<keybind key="W-C-Up">
+		<keybind key="W-A-Up">
 			<action name="DirectionalCycleWindows">
 				<direction>up</direction>
 			</action>
 		</keybind>
-		<keybind key="W-C-Down">
+		<keybind key="W-A-Down">
 			<action name="DirectionalCycleWindows">
 				<direction>down</direction>
 			</action>
@@ -336,7 +336,7 @@
 		<keybind key="W-q">
 			<action name="Reconfigure"/>
 		</keybind>
-		<keybind key="W-C-q">
+		<keybind key="W-S-q">
 			<action name="Exit">
 				<prompt>no</prompt>
 			</action>
