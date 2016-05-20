@@ -95,95 +95,170 @@
 	</dock>
 	<keyboard>
 		<chainQuitKey>C-g</chainQuitKey>
+		
 		<!-- Keybindings for desktop switching -->
+		
 		<keybind key="W-u">
-			<action name="GoToDesktop">
-				<to>1</to>
-			</action>
+			<action name="GoToDesktop"><to>1</to></action>
 		</keybind>
 		<keybind key="W-A-u">
-			<action name="SendToDesktop">
-				<to>1</to>
-				<wrap>no</wrap>
-			</action>
+			<action name="SendToDesktop"><to>1</to><wrap>no</wrap></action>
 		</keybind>
+		<keybind key="W-KP_End">
+			<action name="GoToDesktop"><to>1</to></action>
+		</keybind>
+		<keybind key="W-A-KP_End">
+			<action name="SendToDesktop"><to>1</to><wrap>no</wrap></action>
+		</keybind>
+		<keybind key="W-q">
+			<action name="GoToDesktop"><to>1</to></action>
+		</keybind>
+		<keybind key="W-S-q">
+			<action name="SendToDesktop"><to>1</to><wrap>no</wrap></action>
+		</keybind>
+		
 		<keybind key="W-i">
-			<action name="GoToDesktop">
-				<to>2</to>
-			</action>
+			<action name="GoToDesktop"><to>2</to></action>
 		</keybind>
 		<keybind key="W-A-i">
-			<action name="SendToDesktop">
-				<to>2</to>
-				<wrap>no</wrap>
-			</action>
+			<action name="SendToDesktop"><to>2</to><wrap>no</wrap></action>
 		</keybind>
+		<keybind key="W-KP_Down">
+			<action name="GoToDesktop"><to>2</to></action>
+		</keybind>
+		<keybind key="W-A-KP_Down">
+			<action name="SendToDesktop"><to>2</to><wrap>no</wrap></action>
+		</keybind>
+		<keybind key="W-w">
+			<action name="GoToDesktop"><to>2</to></action>
+		</keybind>
+		<keybind key="W-S-w">
+			<action name="SendToDesktop"><to>2</to><wrap>no</wrap></action>
+		</keybind>
+		
 		<keybind key="W-o">
-			<action name="GoToDesktop">
-				<to>3</to>
-			</action>
+			<action name="GoToDesktop"><to>3</to></action>
 		</keybind>
 		<keybind key="W-A-o">
-			<action name="SendToDesktop">
-				<to>3</to>
-				<wrap>no</wrap>
-			</action>
+			<action name="SendToDesktop"><to>3</to><wrap>no</wrap></action>
 		</keybind>
+		<keybind key="W-KP_Next">
+			<action name="GoToDesktop"><to>3</to></action>
+		</keybind>
+		<keybind key="W-A-KP_Next">
+			<action name="SendToDesktop"><to>3</to><wrap>no</wrap></action>
+		</keybind>
+		<keybind key="W-e">
+			<action name="GoToDesktop"><to>3</to></action>
+		</keybind>
+		<keybind key="W-S-e">
+			<action name="SendToDesktop"><to>3</to><wrap>no</wrap></action>
+		</keybind>
+		
 		<keybind key="W-8">
-			<action name="GoToDesktop">
-				<to>4</to>
-			</action>
+			<action name="GoToDesktop"><to>4</to></action>
 		</keybind>
 		<keybind key="W-A-8">
-			<action name="SendToDesktop">
-				<to>4</to>
-				<wrap>no</wrap>
-			</action>
+			<action name="SendToDesktop"><to>4</to><wrap>no</wrap></action>
 		</keybind>
+		<keybind key="W-KP_Left">
+			<action name="GoToDesktop"><to>4</to></action>
+		</keybind>
+		<keybind key="W-A-KP_Left">
+			<action name="SendToDesktop"><to>4</to><wrap>no</wrap></action>
+		</keybind>
+		<keybind key="W-1">
+			<action name="GoToDesktop"><to>4</to></action>
+		</keybind>
+		<keybind key="W-S-1">
+			<action name="SendToDesktop"><to>4</to><wrap>no</wrap></action>
+		</keybind>
+		
 		<keybind key="W-9">
-			<action name="GoToDesktop">
-				<to>5</to>
-			</action>
+			<action name="GoToDesktop"><to>5</to></action>
 		</keybind>
 		<keybind key="W-A-9">
-			<action name="SendToDesktop">
-				<to>5</to>
-				<wrap>no</wrap>
-			</action>
+			<action name="SendToDesktop"><to>5</to><wrap>no</wrap></action>
 		</keybind>
+		<keybind key="W-KP_Begin">
+			<action name="GoToDesktop"><to>5</to></action>
+		</keybind>
+		<keybind key="W-A-KP_Begin">
+			<action name="SendToDesktop"><to>5</to><wrap>no</wrap></action>
+		</keybind>
+		<keybind key="W-2">
+			<action name="GoToDesktop"><to>5</to></action>
+		</keybind>
+		<keybind key="W-S-2">
+			<action name="SendToDesktop"><to>5</to><wrap>no</wrap></action>
+		</keybind>
+		
 		<keybind key="W-0">
-			<action name="GoToDesktop">
-				<to>6</to>
-			</action>
+			<action name="GoToDesktop"><to>6</to></action>
 		</keybind>
 		<keybind key="W-A-0">
-			<action name="SendToDesktop">
-				<to>6</to>
-				<wrap>no</wrap>
-			</action>
+			<action name="SendToDesktop"><to>6</to><wrap>no</wrap></action>
 		</keybind>
+		<keybind key="W-KP_Right">
+			<action name="GoToDesktop"><to>6</to></action>
+		</keybind>
+		<keybind key="W-A-KP_Right">
+			<action name="SendToDesktop"><to>6</to><wrap>no</wrap></action>
+		</keybind>
+		<keybind key="W-3">
+			<action name="GoToDesktop"><to>6</to></action>
+		</keybind>
+		<keybind key="W-S-3">
+			<action name="SendToDesktop"><to>6</to><wrap>no</wrap></action>
+		</keybind>
+		
 		<keybind key="W-minus">
-			<action name="GoToDesktop">
-				<to>7</to>
-			</action>
+			<action name="GoToDesktop"><to>7</to></action>
 		</keybind>
 		<keybind key="W-A-minus">
-			<action name="SendToDesktop">
-				<to>7</to>
-				<wrap>no</wrap>
-			</action>
+			<action name="SendToDesktop"><to>7</to><wrap>no</wrap></action>
 		</keybind>
+		<keybind key="W-KP_Home">
+			<action name="GoToDesktop"><to>7</to></action>
+		</keybind>
+		<keybind key="W-A-KP_Home">
+			<action name="SendToDesktop"><to>7</to><wrap>no</wrap></action>
+		</keybind>
+		<keybind key="W-4">
+			<action name="GoToDesktop"><to>7</to></action>
+		</keybind>
+		<keybind key="W-S-4">
+			<action name="SendToDesktop"><to>7</to><wrap>no</wrap></action>
+		</keybind>
+		
 		<keybind key="W-equal">
-			<action name="GoToDesktop">
-				<to>8</to>
-			</action>
+			<action name="GoToDesktop"><to>8</to></action>
 		</keybind>
 		<keybind key="W-A-equal">
-			<action name="SendToDesktop">
-				<to>8</to>
-				<wrap>no</wrap>
-			</action>
+			<action name="SendToDesktop"><to>8</to><wrap>no</wrap></action>
 		</keybind>
+		<keybind key="W-KP_Up">
+			<action name="GoToDesktop"><to>8</to></action>
+		</keybind>
+		<keybind key="W-A-KP_Up">
+			<action name="SendToDesktop"><to>8</to><wrap>no</wrap></action>
+		</keybind>
+		<keybind key="W-5">
+			<action name="GoToDesktop"><to>8</to></action>
+		</keybind>
+		<keybind key="W-S-5">
+			<action name="SendToDesktop"><to>8</to><wrap>no</wrap></action>
+		</keybind>
+		
+		
+		<keybind key="W-Left">
+			<action name="DesktopLeft"/>
+		</keybind>
+		<keybind key="W-Right">
+			<action name="DesktopRight"/>
+		</keybind>
+		
+		
 		<!-- Keybindings for windows -->
 		<keybind key="W-m">
 			<action name="ToggleFullscreen"/>
@@ -333,14 +408,16 @@
 				<command>gnome-calculator</command>
 			</action>
 		</keybind>
-		<keybind key="W-q">
+		
+		<keybind key="W-grave">
 			<action name="Reconfigure"/>
 		</keybind>
-		<keybind key="W-S-q">
+		<keybind key="W-S-grave">
 			<action name="Exit">
 				<prompt>no</prompt>
 			</action>
 		</keybind>
+		
 	</keyboard>
 	<mouse>
 		<dragThreshold>1</dragThreshold>
