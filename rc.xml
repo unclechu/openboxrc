@@ -101,13 +101,13 @@
 		<keybind key="W-u">
 			<action name="GoToDesktop"><to>1</to></action>
 		</keybind>
-		<keybind key="W-A-u">
+		<keybind key="W-S-u">
 			<action name="SendToDesktop"><to>1</to><wrap>no</wrap></action>
 		</keybind>
 		<keybind key="W-KP_End">
 			<action name="GoToDesktop"><to>1</to></action>
 		</keybind>
-		<keybind key="W-A-KP_End">
+		<keybind key="W-S-KP_End">
 			<action name="SendToDesktop"><to>1</to><wrap>no</wrap></action>
 		</keybind>
 		<keybind key="W-q">
@@ -120,13 +120,13 @@
 		<keybind key="W-i">
 			<action name="GoToDesktop"><to>2</to></action>
 		</keybind>
-		<keybind key="W-A-i">
+		<keybind key="W-S-i">
 			<action name="SendToDesktop"><to>2</to><wrap>no</wrap></action>
 		</keybind>
 		<keybind key="W-KP_Down">
 			<action name="GoToDesktop"><to>2</to></action>
 		</keybind>
-		<keybind key="W-A-KP_Down">
+		<keybind key="W-S-KP_Down">
 			<action name="SendToDesktop"><to>2</to><wrap>no</wrap></action>
 		</keybind>
 		<keybind key="W-w">
@@ -139,13 +139,13 @@
 		<keybind key="W-o">
 			<action name="GoToDesktop"><to>3</to></action>
 		</keybind>
-		<keybind key="W-A-o">
+		<keybind key="W-S-o">
 			<action name="SendToDesktop"><to>3</to><wrap>no</wrap></action>
 		</keybind>
 		<keybind key="W-KP_Next">
 			<action name="GoToDesktop"><to>3</to></action>
 		</keybind>
-		<keybind key="W-A-KP_Next">
+		<keybind key="W-S-KP_Next">
 			<action name="SendToDesktop"><to>3</to><wrap>no</wrap></action>
 		</keybind>
 		<keybind key="W-e">
@@ -158,13 +158,13 @@
 		<keybind key="W-8">
 			<action name="GoToDesktop"><to>4</to></action>
 		</keybind>
-		<keybind key="W-A-8">
+		<keybind key="W-S-8">
 			<action name="SendToDesktop"><to>4</to><wrap>no</wrap></action>
 		</keybind>
 		<keybind key="W-KP_Left">
 			<action name="GoToDesktop"><to>4</to></action>
 		</keybind>
-		<keybind key="W-A-KP_Left">
+		<keybind key="W-S-KP_Left">
 			<action name="SendToDesktop"><to>4</to><wrap>no</wrap></action>
 		</keybind>
 		<keybind key="W-1">
@@ -177,13 +177,13 @@
 		<keybind key="W-9">
 			<action name="GoToDesktop"><to>5</to></action>
 		</keybind>
-		<keybind key="W-A-9">
+		<keybind key="W-S-9">
 			<action name="SendToDesktop"><to>5</to><wrap>no</wrap></action>
 		</keybind>
 		<keybind key="W-KP_Begin">
 			<action name="GoToDesktop"><to>5</to></action>
 		</keybind>
-		<keybind key="W-A-KP_Begin">
+		<keybind key="W-S-KP_Begin">
 			<action name="SendToDesktop"><to>5</to><wrap>no</wrap></action>
 		</keybind>
 		<keybind key="W-2">
@@ -196,13 +196,13 @@
 		<keybind key="W-0">
 			<action name="GoToDesktop"><to>6</to></action>
 		</keybind>
-		<keybind key="W-A-0">
+		<keybind key="W-S-0">
 			<action name="SendToDesktop"><to>6</to><wrap>no</wrap></action>
 		</keybind>
 		<keybind key="W-KP_Right">
 			<action name="GoToDesktop"><to>6</to></action>
 		</keybind>
-		<keybind key="W-A-KP_Right">
+		<keybind key="W-S-KP_Right">
 			<action name="SendToDesktop"><to>6</to><wrap>no</wrap></action>
 		</keybind>
 		<keybind key="W-3">
@@ -215,13 +215,13 @@
 		<keybind key="W-minus">
 			<action name="GoToDesktop"><to>7</to></action>
 		</keybind>
-		<keybind key="W-A-minus">
+		<keybind key="W-S-minus">
 			<action name="SendToDesktop"><to>7</to><wrap>no</wrap></action>
 		</keybind>
 		<keybind key="W-KP_Home">
 			<action name="GoToDesktop"><to>7</to></action>
 		</keybind>
-		<keybind key="W-A-KP_Home">
+		<keybind key="W-S-KP_Home">
 			<action name="SendToDesktop"><to>7</to><wrap>no</wrap></action>
 		</keybind>
 		<keybind key="W-4">
@@ -234,13 +234,13 @@
 		<keybind key="W-equal">
 			<action name="GoToDesktop"><to>8</to></action>
 		</keybind>
-		<keybind key="W-A-equal">
+		<keybind key="W-S-equal">
 			<action name="SendToDesktop"><to>8</to><wrap>no</wrap></action>
 		</keybind>
 		<keybind key="W-KP_Up">
 			<action name="GoToDesktop"><to>8</to></action>
 		</keybind>
-		<keybind key="W-A-KP_Up">
+		<keybind key="W-S-KP_Up">
 			<action name="SendToDesktop"><to>8</to><wrap>no</wrap></action>
 		</keybind>
 		<keybind key="W-5">
@@ -261,13 +261,10 @@
 		
 		<!-- Keybindings for windows -->
 		<keybind key="W-m">
-			<action name="ToggleFullscreen"/>
-		</keybind>
-		<keybind key="W-Up">
-			<action name="Maximize"/>
-		</keybind>
-		<keybind key="W-Down">
 			<action name="ToggleMaximize"/>
+		</keybind>
+		<keybind key="W-A-m">
+			<action name="ToggleFullscreen"/>
 		</keybind>
 		<keybind key="W-slash">
 			<action name="Close"/>
@@ -296,6 +293,15 @@
 				</finalactions>
 			</action>
 		</keybind>
+		<keybind key="W-Down">
+			<action name="NextWindow">
+				<finalactions>
+					<action name="Focus"/>
+					<action name="Raise"/>
+					<action name="Unshade"/>
+				</finalactions>
+			</action>
+		</keybind>
 		<keybind key="W-S-Tab">
 			<action name="PreviousWindow">
 				<finalactions>
@@ -314,27 +320,66 @@
 				</finalactions>
 			</action>
 		</keybind>
-		<!-- Keybindings for window switching with the arrow keys -->
-		<keybind key="W-A-Right">
-			<action name="DirectionalCycleWindows">
-				<direction>right</direction>
+		<keybind key="W-Up">
+			<action name="PreviousWindow">
+				<finalactions>
+					<action name="Focus"/>
+					<action name="Raise"/>
+					<action name="Unshade"/>
+				</finalactions>
 			</action>
 		</keybind>
+		
+		
+		
+		<!-- Keybindings for directional window switching -->
+		
 		<keybind key="W-A-Left">
 			<action name="DirectionalCycleWindows">
 				<direction>left</direction>
 			</action>
 		</keybind>
-		<keybind key="W-A-Up">
+		<keybind key="W-A-h">
 			<action name="DirectionalCycleWindows">
-				<direction>up</direction>
+				<direction>left</direction>
 			</action>
 		</keybind>
+		
 		<keybind key="W-A-Down">
 			<action name="DirectionalCycleWindows">
 				<direction>down</direction>
 			</action>
 		</keybind>
+		<keybind key="W-A-j">
+			<action name="DirectionalCycleWindows">
+				<direction>down</direction>
+			</action>
+		</keybind>
+		
+		<keybind key="W-A-Up">
+			<action name="DirectionalCycleWindows">
+				<direction>up</direction>
+			</action>
+		</keybind>
+		<keybind key="W-A-k">
+			<action name="DirectionalCycleWindows">
+				<direction>up</direction>
+			</action>
+		</keybind>
+		
+		<keybind key="W-A-Right">
+			<action name="DirectionalCycleWindows">
+				<direction>right</direction>
+			</action>
+		</keybind>
+		<keybind key="W-A-l">
+			<action name="DirectionalCycleWindows">
+				<direction>right</direction>
+			</action>
+		</keybind>
+		
+		
+		
 		<!-- Keybindings for running applications -->
 		<keybind key="W-p">
 			<action name="Execute">
