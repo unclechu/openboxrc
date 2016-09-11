@@ -381,6 +381,8 @@
 		
 		
 		<!-- Keybindings for running applications -->
+		
+		
 		<keybind key="W-p">
 			<action name="Execute">
 				<startupnotify>
@@ -390,6 +392,8 @@
 				<command>gmrun</command>
 			</action>
 		</keybind>
+		
+		
 		<keybind key="W-d">
 			<action name="Execute">
 				<startupnotify>
@@ -399,6 +403,16 @@
 				<command>terminator --profile dark</command>
 			</action>
 		</keybind>
+		<keybind key="W-bracketleft">
+			<action name="Execute">
+				<startupnotify>
+					<enabled>true</enabled>
+					<name>Terminal Emulator</name>
+				</startupnotify>
+				<command>terminator --profile dark</command>
+			</action>
+		</keybind>
+		
 		<keybind key="W-s">
 			<action name="Execute">
 				<startupnotify>
@@ -408,33 +422,17 @@
 				<command>terminator --profile light</command>
 			</action>
 		</keybind>
-		<keybind key="W-b">
+		<keybind key="W-bracketright">
 			<action name="Execute">
 				<startupnotify>
 					<enabled>true</enabled>
-					<name>GPaste manager (select mode)</name>
+					<name>Terminal Emulator</name>
 				</startupnotify>
-				<command>~/.local/bin/gpaste-zenity.sh</command>
+				<command>terminator --profile light</command>
 			</action>
 		</keybind>
-		<keybind key="W-A-b">
-			<action name="Execute">
-				<startupnotify>
-					<enabled>true</enabled>
-					<name>GPaste manager (delete mode)</name>
-				</startupnotify>
-				<command>~/.local/bin/gpaste-zenity.sh -m=delete</command>
-			</action>
-		</keybind>
-		<keybind key="W-BackSpace">
-			<action name="Execute">
-				<startupnotify>
-					<enabled>true</enabled>
-					<name>autostart.sh</name>
-				</startupnotify>
-				<command>~/.local/bin/autostart.sh</command>
-			</action>
-		</keybind>
+		
+		
 		<keybind key="W-f">
 			<action name="Execute">
 				<startupnotify>
@@ -444,6 +442,57 @@
 				<command>nautilus</command>
 			</action>
 		</keybind>
+		
+		<keybind key="W-backslash">
+			<action name="Execute">
+				<startupnotify>
+					<enabled>true</enabled>
+					<name>Home</name>
+				</startupnotify>
+				<command>nautilus</command>
+			</action>
+		</keybind>
+		
+		
+		<keybind key="W-b">
+			<action name="Execute">
+				<startupnotify>
+					<enabled>true</enabled>
+					<name>GPaste manager (select mode)</name>
+				</startupnotify>
+				<command>~/.local/bin/gpaste-zenity.sh</command>
+			</action>
+		</keybind>
+		<keybind key="W-apostrophe">
+			<action name="Execute">
+				<startupnotify>
+					<enabled>true</enabled>
+					<name>GPaste manager (select mode)</name>
+				</startupnotify>
+				<command>~/.local/bin/gpaste-zenity.sh</command>
+			</action>
+		</keybind>
+		
+		<keybind key="W-A-b">
+			<action name="Execute">
+				<startupnotify>
+					<enabled>true</enabled>
+					<name>GPaste manager (delete mode)</name>
+				</startupnotify>
+				<command>~/.local/bin/gpaste-zenity.sh -m=delete</command>
+			</action>
+		</keybind>
+		<keybind key="W-A-apostrophe">
+			<action name="Execute">
+				<startupnotify>
+					<enabled>true</enabled>
+					<name>GPaste manager (delete mode)</name>
+				</startupnotify>
+				<command>~/.local/bin/gpaste-zenity.sh -m=delete</command>
+			</action>
+		</keybind>
+		
+		
 		<keybind key="XF86Calculator">
 			<action name="Execute">
 				<startupnotify>
@@ -453,6 +502,18 @@
 				<command>gnome-calculator</command>
 			</action>
 		</keybind>
+		
+		
+		<keybind key="W-BackSpace">
+			<action name="Execute">
+				<startupnotify>
+					<enabled>true</enabled>
+					<name>autostart.sh</name>
+				</startupnotify>
+				<command>~/.local/bin/autostart.sh</command>
+			</action>
+		</keybind>
+		
 		
 		<keybind key="W-grave">
 			<action name="Reconfigure"/>
