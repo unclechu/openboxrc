@@ -60,7 +60,7 @@
 		</font>
 	</theme>
 	<desktops>
-		<number>8</number>
+		<number>9</number>
 		<firstdesk>1</firstdesk>
 		<names>
 		</names>
@@ -155,10 +155,10 @@
 			<action name="SendToDesktop"><to>3</to><wrap>no</wrap></action>
 		</keybind>
 		
-		<keybind key="W-8">
+		<keybind key="W-7">
 			<action name="GoToDesktop"><to>4</to></action>
 		</keybind>
-		<keybind key="W-S-8">
+		<keybind key="W-S-7">
 			<action name="SendToDesktop"><to>4</to><wrap>no</wrap></action>
 		</keybind>
 		<keybind key="W-KP_Left">
@@ -174,10 +174,10 @@
 			<action name="SendToDesktop"><to>4</to><wrap>no</wrap></action>
 		</keybind>
 		
-		<keybind key="W-9">
+		<keybind key="W-8">
 			<action name="GoToDesktop"><to>5</to></action>
 		</keybind>
-		<keybind key="W-S-9">
+		<keybind key="W-S-8">
 			<action name="SendToDesktop"><to>5</to><wrap>no</wrap></action>
 		</keybind>
 		<keybind key="W-KP_Begin">
@@ -193,10 +193,10 @@
 			<action name="SendToDesktop"><to>5</to><wrap>no</wrap></action>
 		</keybind>
 		
-		<keybind key="W-0">
+		<keybind key="W-9">
 			<action name="GoToDesktop"><to>6</to></action>
 		</keybind>
-		<keybind key="W-S-0">
+		<keybind key="W-S-9">
 			<action name="SendToDesktop"><to>6</to><wrap>no</wrap></action>
 		</keybind>
 		<keybind key="W-KP_Right">
@@ -212,10 +212,10 @@
 			<action name="SendToDesktop"><to>6</to><wrap>no</wrap></action>
 		</keybind>
 		
-		<keybind key="W-minus">
+		<keybind key="W-0">
 			<action name="GoToDesktop"><to>7</to></action>
 		</keybind>
-		<keybind key="W-S-minus">
+		<keybind key="W-S-0">
 			<action name="SendToDesktop"><to>7</to><wrap>no</wrap></action>
 		</keybind>
 		<keybind key="W-KP_Home">
@@ -231,10 +231,10 @@
 			<action name="SendToDesktop"><to>7</to><wrap>no</wrap></action>
 		</keybind>
 		
-		<keybind key="W-equal">
+		<keybind key="W-minus">
 			<action name="GoToDesktop"><to>8</to></action>
 		</keybind>
-		<keybind key="W-S-equal">
+		<keybind key="W-S-minus">
 			<action name="SendToDesktop"><to>8</to><wrap>no</wrap></action>
 		</keybind>
 		<keybind key="W-KP_Up">
@@ -248,6 +248,25 @@
 		</keybind>
 		<keybind key="W-S-5">
 			<action name="SendToDesktop"><to>8</to><wrap>no</wrap></action>
+		</keybind>
+		
+		<keybind key="W-equal">
+			<action name="GoToDesktop"><to>9</to></action>
+		</keybind>
+		<keybind key="W-S-equal">
+			<action name="SendToDesktop"><to>9</to><wrap>no</wrap></action>
+		</keybind>
+		<keybind key="W-KP_Prior">
+			<action name="GoToDesktop"><to>9</to></action>
+		</keybind>
+		<keybind key="W-S-KP_Prior">
+			<action name="SendToDesktop"><to>9</to><wrap>no</wrap></action>
+		</keybind>
+		<keybind key="W-6">
+			<action name="GoToDesktop"><to>9</to></action>
+		</keybind>
+		<keybind key="W-S-6">
+			<action name="SendToDesktop"><to>9</to><wrap>no</wrap></action>
 		</keybind>
 		
 		
@@ -394,15 +413,6 @@
 		</keybind>
 		
 		
-		<keybind key="W-d">
-			<action name="Execute">
-				<startupnotify>
-					<enabled>true</enabled>
-					<name>Terminal Emulator</name>
-				</startupnotify>
-				<command>terminator --profile dark</command>
-			</action>
-		</keybind>
 		<keybind key="W-bracketleft">
 			<action name="Execute">
 				<startupnotify>
@@ -410,16 +420,6 @@
 					<name>Terminal Emulator</name>
 				</startupnotify>
 				<command>terminator --profile dark</command>
-			</action>
-		</keybind>
-		
-		<keybind key="W-s">
-			<action name="Execute">
-				<startupnotify>
-					<enabled>true</enabled>
-					<name>Terminal Emulator</name>
-				</startupnotify>
-				<command>terminator --profile light</command>
 			</action>
 		</keybind>
 		<keybind key="W-bracketright">
@@ -431,18 +431,6 @@
 				<command>terminator --profile light</command>
 			</action>
 		</keybind>
-		
-		
-		<keybind key="W-f">
-			<action name="Execute">
-				<startupnotify>
-					<enabled>true</enabled>
-					<name>Home</name>
-				</startupnotify>
-				<command>nautilus</command>
-			</action>
-		</keybind>
-		
 		<keybind key="W-backslash">
 			<action name="Execute">
 				<startupnotify>
@@ -454,15 +442,6 @@
 		</keybind>
 		
 		
-		<keybind key="W-b">
-			<action name="Execute">
-				<startupnotify>
-					<enabled>true</enabled>
-					<name>GPaste manager (select mode)</name>
-				</startupnotify>
-				<command>~/.local/bin/gpaste-zenity.sh</command>
-			</action>
-		</keybind>
 		<keybind key="W-apostrophe">
 			<action name="Execute">
 				<startupnotify>
@@ -470,16 +449,6 @@
 					<name>GPaste manager (select mode)</name>
 				</startupnotify>
 				<command>~/.local/bin/gpaste-zenity.sh</command>
-			</action>
-		</keybind>
-		
-		<keybind key="W-A-b">
-			<action name="Execute">
-				<startupnotify>
-					<enabled>true</enabled>
-					<name>GPaste manager (delete mode)</name>
-				</startupnotify>
-				<command>~/.local/bin/gpaste-zenity.sh -m=delete</command>
 			</action>
 		</keybind>
 		<keybind key="W-A-apostrophe">
